@@ -1,0 +1,68 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>  HINDUSTAN SHIPMENT LOCATION </title>  
+<style>   
+Body {   
+  background-image: url('https://wallpaperaccess.com/full/3430787.jpg');  
+}  
+button {   
+       background-color: #b0ecc3;   
+       width: 100%;  
+        color: rgb(10, 8, 8);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=productId] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid powderblue;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: #75ccdb;  
+    }  
+   fieldset{
+       color: white;
+       text-align: center;
+       
+   }
+</style>   
+</head>    
+<body>    
+    <center> <h1 textalign="center" style="color:rgb(248, 247, 247)" > HINDUSTAN SHIPMENT LOCATION</h1> </center>   
+    <form id="contract-form" method="post" action="/enrollProductDetails">  
+        <div class="container">   
+            <label>productId </label>   
+            <input type="text" placeholder="Enter productId" name="productId" id="productId" required>  
+            <label>vehregisterNum </label>   
+            <input type="text" placeholder="Enter vehregisterNum" name="vehregisterNum" id="vehregisterNum" required>  
+            <label>StateId </label>   
+            <input type="text" placeholder="Enter StateId" name="StateId" id="StateId" required>     
+            <label>currentinRole </label>   
+            <input type="text" placeholder="currentinRole" name="currentinRole" id="currentinRole" required>    
+            <button type="submit" value="enrollProductDetails">SUBMIT</button>   
+                           
+        </div>   
+    </form><br><br><br>   
+</body>     
+</html>
